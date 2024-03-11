@@ -136,16 +136,29 @@ let images = [
 const result = document.getElementById('result');
 /* <img src="images/cats/fritz.jpg" alt="fritz" class="img-fluid d-block"> */
 let tmpHtml = '';
-for(let i = 0; i < images.length; i++){
-    let img = document.createElement('img');
-    img.setAttribute('src',`images/cats/${images[i]}.jpg`);
-    img.setAttribute('alt', images[i]);
-    img.className = 'img-fluid d-block';
-    result.append(img);
+// for(let i = 0; i < images.length; i++){
+//     let img = document.createElement('img');
+//     img.setAttribute('src',`images/cats/${images[i]}.jpg`);
+//     img.setAttribute('alt', images[i]);
+//     img.className = 'img-fluid d-block';
+//     result.append(img);
 //   tmpHtml += `
 //   <img src="images/cats/${images[i]}.jpg" alt="${images[i]}" class="img-fluid d-block">
 //   `;
-}
+//}
 //console.log(tmpHtml);
 
 //result.innerHTML = tmpHtml;
+//  const boxes = document.getElementsByClassName('box');
+//  console.log(boxes);
+
+//  for(let i = 0; i < boxes.length; i++){
+//     let index = i + 1;
+//     if(index % 2 === 0){
+//         boxes[i].classList.add('bg-success');
+//     } else {
+//         boxes[i].classList.add('bg-black');
+//     }
+    
+//  }
+
